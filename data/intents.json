@@ -1,0 +1,39 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening", "greetings"],
+      "responses": ["Hello! How can I help you with your shopping today?", "Hi there! What can I help you find?", "Welcome! I'm your shopping assistant. How can I help you?", "Greetings! Looking for something special today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later", "farewell", "exit", "quit"],
+      "responses": ["Goodbye! Have a great day!", "See you soon!", "Bye! Come back anytime.", "It was a pleasure assisting you."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "appreciate it"],
+      "responses": ["You're welcome!", "Happy to help!", "No problem!", "Anytime!"]
+    },
+    {
+      "tag": "product_search",
+      "patterns": ["I'm looking for a {product}", "do you have {product}", "find {product}", "show me {product}", "search for {product}", "what about {product}"],
+      "responses": ["Searching for {product}...", "Here is what I found for {product}:", "Let me see if I can find {product} for you."]
+    },
+    {
+      "tag": "category_browse",
+      "patterns": ["show me categories", "what categories do you have", "browse categories", "what can I buy", "show me {category}", "products in {category}"],
+      "responses": ["We have various categories: Electronics, Clothing, Books, and more. What interests you?", "Our main categories are Electronics, Clothing, and Books. Which one would you like to explore?", "Here are some products in the {category} category:"]
+    },
+    {
+      "tag": "price_inquiry",
+      "patterns": ["how much does {product} cost", "price of {product}", "what is the price of {product}", "how expensive is {product}", "{product} price"],
+      "responses": ["The price of {product} is {price}.", "It costs {price}.", "You can get {product} for {price}."]
+    },
+    {
+      "tag": "default",
+      "patterns": [],
+      "responses": ["I'm not sure I understand. Could you please rephrase that?", "I'm here to help you shop. Could you tell me what you're looking for?", "I can help you find products, check prices, or browse categories. What would you like to do?"]
+    }
+  ]
+} 

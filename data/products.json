@@ -1,0 +1,44 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Wireless Headphones",
+            "category": "Electronics",
+            "price": 99.99,
+            "description": "High-quality wireless headphones with noise cancellation",
+            "image": "headphones.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Smart Watch",
+            "category": "Electronics",
+            "price": 199.99,
+            "description": "Feature-rich smartwatch with health tracking",
+            "image": "smartwatch.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Cotton T-Shirt",
+            "category": "Clothing",
+            "price": 24.99,
+            "description": "Comfortable cotton t-shirt, available in multiple colors",
+            "image": "tshirt.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Running Shoes",
+            "category": "Clothing",
+            "price": 79.99,
+            "description": "Lightweight running shoes with excellent support",
+            "image": "shoes.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Novel Collection",
+            "category": "Books",
+            "price": 49.99,
+            "description": "Set of 5 bestselling novels",
+            "image": "books.jpg"
+        }
+    ]
+} 

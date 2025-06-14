@@ -1,0 +1,14 @@
+{
+    "greetings": [
+        "Hello! How can I help you with your shopping today?",
+        "Hi there! What can I help you find?",
+        "Welcome! I'm your shopping assistant. How can I help you?",
+        "Greetings! Looking for something special today?"
+    ],
+    "default": [
+        "I'm not sure I understand. Could you please rephrase that?",
+        "I'm here to help you shop. Could you tell me what you're looking for?",
+        "I can help you find products, check prices, or browse categories. What would you like to do?",
+        "I'm your shopping assistant. You can ask me about products, prices, or categories."
+    ]
+} 
